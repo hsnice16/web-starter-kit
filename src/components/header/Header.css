@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #3d3d44;
+  border: medium solid var(--body-bg-color);
+}
+
+.header img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.header h1 {
+  color: orange;
+  font-size: 1.5rem;
+}
